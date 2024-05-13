@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  action:
+    build: .
+    volumes:
+      - .:/home/app
